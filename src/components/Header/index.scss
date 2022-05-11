@@ -1,0 +1,21 @@
+header{
+  position: fixed;
+  inset: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 7rem;
+  padding: 0 2.4rem;
+  background-color: transparent;
+  transition: all ease 0.5s;
+
+  img{
+    height: 2.5rem;
+  }
+
+  &.scrolling{
+    background-color: #141414;
+  }
+}
